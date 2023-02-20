@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-20T09:15:24.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Wuh698D13sM1nkLOCUd7" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-20T09:24:22.330Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="4ICykKrhymtkQR_oyJqC" version="20.8.20" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1430" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
             <mxPoint x="230" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="ObjectDetector/YOLOV8" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Object detector module&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;YOLOV8" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="70" y="280" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zim9T-EeI6xXf0g0qFfT-1" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontStyle=1" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Zim9T-EeI6xXf0g0qFfT-5" target="WIyWlLk6GJQsqaUBKTNV-12">
@@ -19,10 +19,10 @@
             <mxPoint x="139.76" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zim9T-EeI6xXf0g0qFfT-5" value="FFmpeg/Opencv" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Zim9T-EeI6xXf0g0qFfT-5" value="Video decoding module&lt;br&gt;FFmpeg" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="70" y="170" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Zim9T-EeI6xXf0g0qFfT-6" value="Tracker/ByteTracker" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Zim9T-EeI6xXf0g0qFfT-6" value="Tracker module&lt;br&gt;ByteTracker" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="70" y="420" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zim9T-EeI6xXf0g0qFfT-7" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;fontStyle=1" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-12" target="Zim9T-EeI6xXf0g0qFfT-6">
@@ -43,7 +43,7 @@
         <mxCell id="Zim9T-EeI6xXf0g0qFfT-13" value="Input/RTSP" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;fontSize=14;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="210" y="30" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zim9T-EeI6xXf0g0qFfT-15" value="ObjectDetector/YOLOV8" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Zim9T-EeI6xXf0g0qFfT-15" value="Object detector module&lt;br&gt;YOLOV8" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="370" y="280" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zim9T-EeI6xXf0g0qFfT-16" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontStyle=1" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Zim9T-EeI6xXf0g0qFfT-17" target="Zim9T-EeI6xXf0g0qFfT-15">
@@ -52,10 +52,10 @@
             <mxPoint x="439.76" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zim9T-EeI6xXf0g0qFfT-17" value="FFmpeg/Opencv" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Zim9T-EeI6xXf0g0qFfT-17" value="Video decoding module&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;FFmpeg" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="370" y="170" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Zim9T-EeI6xXf0g0qFfT-18" value="Tracker/ByteTracker" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Zim9T-EeI6xXf0g0qFfT-18" value="Tracker module&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ByteTracker" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="370" y="420" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zim9T-EeI6xXf0g0qFfT-19" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;fontStyle=1" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Zim9T-EeI6xXf0g0qFfT-15" target="Zim9T-EeI6xXf0g0qFfT-18">
@@ -111,30 +111,25 @@
           <mxGeometry x="280" y="110" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zim9T-EeI6xXf0g0qFfT-68" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.rrect;rSize=10;labelBorderColor=#000000;fontSize=14;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="620" y="240" width="120" height="270" as="geometry" />
+          <mxGeometry x="620" y="240" width="130" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="Zim9T-EeI6xXf0g0qFfT-69" value="口罩识别" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.rrect;rSize=0;fontSize=14;fontColor=#000000;fontStyle=1;resizeWidth=1;" vertex="1" parent="Zim9T-EeI6xXf0g0qFfT-68">
-          <mxGeometry width="120" height="50" relative="1" as="geometry">
+        <mxCell id="Zim9T-EeI6xXf0g0qFfT-69" value="MaskDetection" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.rrect;rSize=0;fontSize=14;fontColor=#000000;fontStyle=1;resizeWidth=1;" vertex="1" parent="Zim9T-EeI6xXf0g0qFfT-68">
+          <mxGeometry width="130" height="50" relative="1" as="geometry">
             <mxPoint y="50" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zim9T-EeI6xXf0g0qFfT-70" value="入侵检测" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.rrect;rSize=0;fontSize=14;fontColor=#000000;fontStyle=1;resizeWidth=1;" vertex="1" parent="Zim9T-EeI6xXf0g0qFfT-68">
-          <mxGeometry width="120" height="50" relative="1" as="geometry">
-            <mxPoint y="100" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Zim9T-EeI6xXf0g0qFfT-71" value="违停检测" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.bottomButton;rSize=10;fontSize=14;fontColor=#000000;fontStyle=1;resizeWidth=1;" vertex="1" parent="Zim9T-EeI6xXf0g0qFfT-68">
-          <mxGeometry y="1" width="120" height="50" relative="1" as="geometry">
+        <mxCell id="Zim9T-EeI6xXf0g0qFfT-71" value="IntrusionDetection" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.bottomButton;rSize=10;fontSize=14;fontColor=#000000;fontStyle=1;resizeWidth=1;" vertex="1" parent="Zim9T-EeI6xXf0g0qFfT-68">
+          <mxGeometry y="1" width="130" height="50" relative="1" as="geometry">
             <mxPoint y="-50" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Zim9T-EeI6xXf0g0qFfT-74" value="REID" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.bottomButton;rSize=10;fontSize=14;fontColor=#000000;fontStyle=1;resizeWidth=1;direction=west;" vertex="1" parent="Zim9T-EeI6xXf0g0qFfT-68">
-          <mxGeometry width="120" height="50" as="geometry" />
+          <mxGeometry width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Zim9T-EeI6xXf0g0qFfT-77" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=14;fontStyle=1" edge="1" parent="Zim9T-EeI6xXf0g0qFfT-68">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="59.76" y="200" as="sourcePoint" />
-            <mxPoint x="59.76" y="160" as="targetPoint" />
+            <mxPoint x="64.65166666666666" y="174" as="sourcePoint" />
+            <mxPoint x="64.65166666666666" y="134" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Zim9T-EeI6xXf0g0qFfT-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Zim9T-EeI6xXf0g0qFfT-78" target="Zim9T-EeI6xXf0g0qFfT-83">
